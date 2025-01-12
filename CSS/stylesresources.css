@@ -1,0 +1,76 @@
+body {
+    background-color: #FAFAFA;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.orange-bar {
+    background-image: linear-gradient(to right, #FF9023, #F9D60B);
+    height: 3em; 
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1; 
+}
+
+.logo-container {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: 40px;
+}
+
+.logo {
+    width: 100%;
+    height: 100%;
+    margin-top: 0;
+    object-fit: cover
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+}
+
+.nav {
+    margin-left: auto; 
+    margin-top: -0.2em; 
+}
+
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+}
+
+.nav ul li {
+    display: inline-block;
+    font-size: 25px;
+    margin-top: 25px;
+}
+
+.nav li a {
+    display: block;
+    color: #000000;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.wildfire-image {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
